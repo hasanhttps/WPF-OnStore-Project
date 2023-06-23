@@ -99,13 +99,13 @@
                 </Grid>
 
                 <Grid Grid.Column="2">
-
+                    
                 </Grid>
             </Grid>
 
             <Grid Name="ProductsView" Visibility="Visible" Grid.Row="1">
                 <WrapPanel>
-                    <ListView Grid.Row="1" BorderBrush="Transparent" Background="Transparent" ItemsSource="{Binding products}" Margin="10" SelectionChanged="ListView_Selected">
+                    <ListView BorderBrush="Transparent" Background="Transparent" ItemsSource="{Binding products}" Margin="10" SelectionChanged="ListView_Selected">
                         <ListView.ItemsPanel>
                             <ItemsPanelTemplate>
                                 <WrapPanel Orientation="Horizontal"/>
